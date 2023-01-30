@@ -1,22 +1,17 @@
 
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "cortex_sfdc"
   export: override_required
 }
 
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "ipnet-sap-cortex-demo"
   export: override_required
 }
 
 
 constant: SFDC_DATASET {
-  value: "Reporting Dataset Name"
+  value: "SFDC_REPORTING"
   export: override_required
 }
-
-
-
-
-
